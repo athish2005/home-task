@@ -16,7 +16,7 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://localhost:3000/create",
                         "http://localhost:3000/",
                         "http://localhost:5173",
-                        "https://697a17a9ccfcdb1e8321db8e--exquisite-gumdrop-5c3a10.netlify.app/"
+                        "https://exquisite-gumdrop-5c3a10.netlify.app/"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
